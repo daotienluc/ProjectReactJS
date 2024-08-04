@@ -24,7 +24,7 @@ const MultipleItems = () => {
   };
 
   return (
-    <div className="w-full">
+    <div className="w-full pt-24">
       <StyledSlider {...settings}>
         <div>
           <img src={banner1} alt="" />

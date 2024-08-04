@@ -7,7 +7,7 @@ import { Link as RouterLink } from "react-router-dom";
 
 function Header() {
   return (
-    <div className="container mx-auto border-b-1">
+    <div className="container mx-auto border-b-1 fixed z-10 bg-white">
       <div className="flex items-center justify-between h-24">
         <Link className="cursor-pointer">
           <img src={Logo} alt="logo" className="w-8 h-8 mr-4" />
